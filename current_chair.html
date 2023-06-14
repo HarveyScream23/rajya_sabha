@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="300;http://10.21.217.161/member_profile" />
+    <title>AboutChairman - Members Profile</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="sty.css">
+</head>
+<body>
+
+    <div class="container-fluid px-0">
+
+<link href="AC.css" rel="stylesheet" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<nav class="container-fluid p-2">
+    
+    <div class="row justify-content-end">
+
+        <div class="box pr-1">
+            <img src="Home.png" class="backButton float-right" style="max-height: 45px;  " onclick="location.href='Main.html'" />
+        </div>
+        <div class="box pr-2" id="show" style="display: none;">
+            <img src="menu.png" class="backButton float-right" />
+        </div>
+    </div>
+
+
+</nav>
+
+<div class="container-fluid text-center menu" style="display: none;">
+    <div class="col-12 initialfont px-1">
+        <div class="formerChairmenList">
+            <h6 class="rsTextColor leagueSpartan" style="font-size: 22px;">FORMER CHAIRMEN</h6>
+
+            <a href="Dr.Sarvepalli Radhakrishnan.html&amp;position=FORMER%20CHAIRMAN" style="color:black">Dr. Sarvepalli Radhakrishnan</a>
+            <br>
+            <a href="Dr. Zakir Husain.html&amp;position=FORMER%20CHAIRMAN" style="color:black">Dr. Zakir Husain</a>
+            <br>
+            <a href="Shri Varahagir Venkata Giri.html&amp;position=FORMER%20CHAIRMAN" style="color:black">Shri Varahagir Venkata Giri</a>
+            <br>
+            <a href="Shri Gopal Swarup Pathak.html&amp;position=FORMER%20CHAIRMAN" style="color:black">Shri Gopal Swarup Pathak</a>
+            <br>
+            <a href="Shri Basappa Danappa Jatti.html&amp;position=FORMER%20CHAIRMAN" style="color:black">Shri Basappa Danappa Jatti</a>
+            <br>
+            <a href="Shri M Hidayatullah.html&amp;position=FORMER%20CHAIRMAN" style="color:black">Shri M Hidayatullah</a>
+            <br>
+            <a href="Shri R. Venkataraman.html&amp;position=FORMER%20CHAIRMAN" style="color:black">Shri R. Venkataraman</a>
+            <br>
+            <a href="Dr. Shanker Dayal Sharma.html&amp;position=FORMER%20CHAIRMAN" style="color:black">Dr. Shanker Dayal Sharma</a>
+            <br>
+            <a href="Shri K. R. Narayanan.html&amp;position=FORMER%20CHAIRMAN" style="color:black">Shri K. R. Narayanan</a>
+            <br>
+            <a href="Shri Krishan Kant.html&amp;position=FORMER%20CHAIRMAN" style="color:black">Shri Krishan Kant</a>
+            <br>
+            <a href="Shri Bhairon Singh Shekhawat.html&amp;position=FORMER%20CHAIRMAN" style="color:black">Shri Bhairon Singh Shekhawat</a>
+            <br>
+            <a href="Shri Mohammad Hamid Ansari.html&amp;position=FORMER%20CHAIRMAN" style="color:black">Shri Mohammad Hamid Ansari</a>
+            <br>
+            <a href="Shri M. Venkaiah Naidu.html&amp;position=FORMER%20CHAIRMAN" style="color:black">Shri M. Venkaiah Naidu</a>
+            <br>
+
+
+             
+
+        </div>
+
+    </div>
+</div>
+
+
+<div class="container-fluid" id="profileSection">
+
+    <div class="row">
+        <div class="col-12 heading mb-2">
+            <h1 class="leagueSpartan rsTextColor mt-4" style="line-height: 25px;">
+                SHRI JAGDEEP DHANKHAR
+            </h1>
+            <p class="cooperHewittFont" style="padding-left: 4px; font-size: 23px;"><b>CHAIRMAN OF RAJYA SABHA</b></p>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid" style="font-size: 19px;">
+
+    <div class="row">
+        <div class="col-sm-12 col-md-10 text-justify pr-4">
+            <div class="row">
+
+                <div class="col-12 col-md-7 order-2 order-md-1">
+                    <table id="memberTable" class="table table-borderless table-responsive singleMemberTable mb-0">
+                        <tr>
+                          <th>Name:</th>
+                          <td id="name"></td>
+                        </tr>
+                        <tr>
+                          <th>Father's Name:</th>
+                          <td id="fatherName"></td>
+                        </tr>
+                        <tr>
+                          <th>Mother's Name:</th>
+                          <td id="motherName"></td>
+                        </tr>
+                        <tr>
+                          <th>Date of Birth:</th>
+                          <td id="dob"></td>
+                        </tr>
+                        <tr>
+                          <th>Place of Birth:</th>
+                          <td id="placeOfBirth"></td>
+                        </tr>
+                        <tr>
+                          <th>Marital Status:</th>
+                          <td id="maritalStatus"></td>
+                        </tr>
+                        <tr>
+                          <th>Spouse's Name:</th>
+                          <td id="spouseName"></td>
+                        </tr>
+                        <tr>
+                          <th>Children:</th>
+                          <td id="children"></td>
+                        </tr>
+                      </table>
+                </div>
+                <div class="col-12 col-md-5 order-1 order-md-2">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="profilePicBox">
+                                <img src="Current_Chairman.jpeg" class="profileImage2" />
+                                <p class="cooperHewittFont text-center" style="font-size: 16px;"><b>SHRI JAGDEEP DHANKHAR<br />CHAIRMAN, RAJYA SABHA</b></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <table id="memberTable" class="table table-borderless singleMemberTable table-responsive mb-0">
+                <tbody>
+
+                    <tr>
+                        <th>Educational Qualification : </th>
+                        <td id="Educational Qualification"> </td>
+                    </tr>
+                    <tr>
+                        <th>Profession :</th>
+                        <td id="Profession"></td>
+                    </tr>
+                    <tr>
+                        <th>Permanent Address: </th>
+                        <td id="Permanent Address"> </td>
+                    </tr>
+                    <tr>
+                        <th>Present Address: </th>
+                        <td  id="Present Address">  </td>
+                    </tr>
+                    <tr>
+                        <th>E-mail : </th>
+                        <td id="E-mail">	</td>
+                    </tr>
+
+                    <tr>
+                        <th colspan="100%" class="pb-0">Positions Held : </th>
+                        <td id="positionsHeld"></td>
+                    </tr>
+                    
+
+                </tbody>
+            </table>
+
+            <table id="memberTable" class="table table-borderless singleMemberTable table-responsive ">
+                <tr colspan="100%" class="p-1">
+                    <span style="padding: 0.65rem; display: block; " class="pt-0">
+                        1989-91 : Member, Ninth Lok Sabha <br />
+                        Jan. - April 1990 : Chairman, Committee on Absence of Members from the Sittings of the House <br />
+                        Jan. - May 1990 : Member, General Purposes Committee <br />
+                        May 1990 : Member, Committee of Privileges <br />
+                        21 April - 5 Nov. 1990 : Union Deputy Minister for Parliamentary Affairs <br />
+                        1993-1998 : Member, Rajasthan Legislative Assembly <br />
+                        30 July 2019 - 18 July 2022 : Governor of West Bengal <br />
+                        11 August 2022 onwards : Vice-President of India and ex officio Chairman, Rajya Sabha <br />
+                    </span>
+                </tr>
+
+                <tr>
+                    <th colspan="100%" class="pb-0">Publications : </th>
+                </tr>
+                <tr>
+                    <td id="bookPublished" colspan="100%">	</td>
+                </tr>
+                <tr>
+                    <th colspan="100%" class="pb-0">Hobbies : </th>
+                </tr>
+                <tr>
+                    <td id="hobbies" colspan="100%">
+                    
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="100%" class="pb-0">Countries visited : </th>
+                </tr>
+                <tr>
+                    <td id="countriesVisisted" colspan="100%">
+                        Travelled extensively to many countries including U.S.A., Canada, U.K., Italy, Switzerland, Germany, Belgium, Australia, New Zealand, China, Hong Kong, Singapore, etc.; As Union Minister, was a Member of a delegation as Deputy Leader of a Parliamentary Group to European Parliament
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="100%" class="pb-0">Associations and Other Interests : </th>
+                </tr>
+                 <tr>
+                    <td id="otherInterests" colspan="100%"> </td>
+                </tr>
+                <tr>
+                <tr>
+                    <th colspan="100%" class="pb-0">Other Information : </th>
+                </tr>
+               
+                    <td id="otherInformations" colspan="100%">                      
+                    </td>
+                </tr>
+
+                </tbody>
+            </table>
+        </div>
+        <div class="col-2 initialfont px-1 d-none d-md-block">
+            <div class="formerChairmenList">
+                <h6 class="rsTextColor leagueSpartan" style="font-size: 22px;">FORMER CHAIRMEN</h6>
+
+                    <a href="Dr.Sarvepalli Radhakrishnan.html&amp;position=FORMER%20CHAIRMAN" style="color:black">Dr. Sarvepalli Radhakrishnan</a>
+                    <br>
+                    <a href="Dr. Zakir Husain.html&amp;position=FORMER%20CHAIRMAN" style="color:black">Dr. Zakir Husain</a>
+                    <br>
+                    <a href="Shri Varahagir Venkata Giri.html&amp;position=FORMER%20CHAIRMAN" style="color:black">Shri Varahagir Venkata Giri</a>
+                    <br>
+                    <a href="Shri Gopal Swarup Pathak.html&amp;position=FORMER%20CHAIRMAN" style="color:black">Shri Gopal Swarup Pathak</a>
+                    <br>
+                    <a href="Shri Basappa Danappa Jatti.html&amp;position=FORMER%20CHAIRMAN" style="color:black">Shri Basappa Danappa Jatti</a>
+                    <br>
+                    <a href="Shri M Hidayatullah.html&amp;position=FORMER%20CHAIRMAN" style="color:black">Shri M Hidayatullah</a>
+                    <br>
+                    <a href="Shri R. Venkataraman.html&amp;position=FORMER%20CHAIRMAN" style="color:black">Shri R. Venkataraman</a>
+                    <br>
+                    <a href="Dr. Shanker Dayal Sharma.html&amp;position=FORMER%20CHAIRMAN" style="color:black">Dr. Shanker Dayal Sharma</a>
+                    <br>
+                    <a href="Shri K. R. Narayanan.html&amp;position=FORMER%20CHAIRMAN" style="color:black">Shri K. R. Narayanan</a>
+                    <br>
+                    <a href="Shri Krishan Kant.html&amp;position=FORMER%20CHAIRMAN" style="color:black">Shri Krishan Kant</a>
+                    <br>
+                    <a href="Shri Bhairon Singh Shekhawat.html&amp;position=FORMER%20CHAIRMAN" style="color:black">Shri Bhairon Singh Shekhawat</a>
+                    <br>
+                    <a href="Shri Mohammad Hamid Ansari.html&amp;position=FORMER%20CHAIRMAN" style="color:black">Shri Mohammad Hamid Ansari</a>
+                    <br>
+                    <a href="Shri M. Venkaiah Naidu.html&amp;position=FORMER%20CHAIRMAN" style="color:black">Shri M. Venkaiah Naidu</a>
+                    <br>
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script>
+    const url = "https://rsdoc.nic.in/MemberGetData/getchairmanprofile";
+
+    fetch(url)
+      .then(response => response.json())
+      .then(data => {
+        const tableData = data.getChairmanData;
+        
+        document.getElementById("name").textContent = tableData.Name;
+        document.getElementById("fatherName").textContent = tableData.Fathername;
+        document.getElementById("motherName").textContent = tableData.MotherName;
+        document.getElementById("dob").textContent = tableData.DOB;
+        document.getElementById("placeOfBirth").textContent = tableData.PlaceofBirth;
+        document.getElementById("maritalStatus").textContent = tableData.MaritalStatus;
+        document.getElementById("spouseName").textContent = tableData.SpouseName;
+        document.getElementById("children").textContent = tableData.Children;
+        document.getElementById("Educational Qualification").textContent = tableData["EducationQualification"];
+        document.getElementById("Profession").textContent = tableData.Profession;
+        document.getElementById("Permanent Address").textContent = tableData["PermanentAddress"];
+        document.getElementById("Present Address").textContent = tableData["PresentAddress"];
+        document.getElementById("E-mail").textContent = tableData["Email"];
+        document.getElementById("Publications").textContent = data.Publications;
+        document.getElementById("E-mail").textContent = tableData["Email"];
+        document.getElementById('hobbies').textContent=data.Hobbies;
+        document.getElementById('countriesVisited').textContent=data["Countries"];
+        document.getElementById('otherInterests').textContent=data["otherInterests"];
+      })
+      .catch(error => {
+        console.log("Error:", error);
+      });
+
+  </script>
+  
+    </div>
+    <script>
+        const url1 = "https://rsdoc.nic.in/MemberGetData/getchairmanprofile";
+
+        fetch(url1)
+                 .then(response => response.json())
+                 .then(data => {
+                   const bookPublished = data.other;
+
+                     document.getElementById('bookPublished').textContent=bookPublished;
+                     document.getElementById('hobbies').textContent=data.Hobbies;
+                     document.getElementById('countriesVisited').textContent=data.Countries;
+                     document.getElementById('otherInterests').textContent=data.OtherInterests;
+                     document.getElementById('otherInformations').textContent=data.OtherInformations;
+                  
+                 
+                 })
+                 .catch(error => {
+                   console.log('Error:', error);
+                 });
+             
+         </script>
+         </script>
+  
+        </div>
+        <script>
+            const url2 = "https://rsdoc.nic.in/MemberGetData/getchairmanprofile";
+    
+            fetch(url1)
+                     .then(response => response.json())
+                     .then(data => {
+                       const bookPublished = data.BookPublisheds;
+    
+                         document.getElementById('bookPublished').textContent=bookPublished;
+                         document.getElementById('hobbies').textContent=data.Hobbies;
+                     //  document.getElementById('countriesVisited').textContent=data.Countries;
+                         document.getElementById('otherInterests').textContent=data.OtherInterests;
+                         document.getElementById('otherInformations').textContent=data.OtherInformations;
+                      
+                     
+                     })
+                     .catch(error => {
+                       console.log('Error:', error);
+                     });
+                 
+             </script>
+        
+</body>
+</html>              

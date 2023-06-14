@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="800; Refresh page " />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <title>MainPage</title>
+    <link rel="stylesheet" href="sty.css">
+    <script src="/member_profile/bundles/modernizr?v=inCVuEFe6J4Q07A0AcRsbJic_UE5MwpRMNGcOtk94TE1"></script>
+
+</head>
+
+<body style="background-image:url('../images/.png');">
+
+    <div class="container-fluid px-0">
+
+        <link rel="stylesheet" href="custom_style.css">
+        <link href="main.css" rel="stylesheet" />
+        <nav class="container-fluid vh20 py-3">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="logoContent">
+                        <div class="logo">
+                            <img src="emblem2.png" class="navImg" style="width: 200px;" />
+                        </div>
+                        <div class="logoText pointer" onclick="location.href='About.html'">
+                            <h2 class="">RAJYA SABHA</h2>
+                            <h5 class="">COUNCIL OF STATES</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid vh80">
+            <div class="row justify-content-end">
+                <div class="col-sm-12 col-md-3 vh80 d-none d-sm-none d-md-block">
+                    <div class="chairImg">
+                        <img src="hall.png" class="imgChair" />
+                    </div>
+                </div>
+                <div class="col-sm-10 col-md-6">
+                    <div class="container-fluid">
+                        <div class="row align-items-center pb-1 mb-2 position-relative pointer"
+                            onclick="location.href='current_chair.html'">
+                            <div class="mainIcon col-3">
+                                <div class="picHolder">
+                                    <img src='Current_Chairman.jpeg' class="iconPic" />
+                                </div>
+                            </div>
+                            <div class="col-9 badgeText">
+                                <h4 id="chairmanName"></h4>
+                                <h6>HON'BLE CHAIRMAN | RAJYA SABHA</h6>
+                            </div>
+                            <div id="borderLeft1"></div>
+                        </div>
+                        <div class="row align-items-center pb-1 mb-2 position-relative pointer"
+                            onclick="location.href='about.html'">
+                            <div class="col-9 badgeText text-right">
+                                <h4 id="deputyChairmanName"></h4>
+                                <h6>HON'BLE DEPUTY CHAIRMAN | RAJYA SABHA</h6>
+                            </div>
+                            <div class="mainIcon col-3">
+                                <div class="picHolder">
+                                    <img src="Deputy Chairman.jpg" class="iconPic" />
+                                </div>
+                            </div>
+                            <div id="borderRight1"></div>
+                        </div>
+                        <div class="row align-items-center pb-1 mb-2 position-relative pointer"
+                            onclick="location.href='about'">
+                            <div class="mainIcon col-3">
+                                <div class="picHolder">
+                                    <img src="LOH.jpg" class="iconPic" />
+                                </div>
+                            </div>
+                            <div class="col-9 badgeText">
+                                <h4 id="leaderOfHouseName"></h4>
+                                <h6>LEADER OF THE HOUSE | RAJYA SABHA</h6>
+                            </div>
+                            <div id="borderLeft1"></div>
+                        </div>
+                        <div class="row align-items-center pb-1 mb-2 position-relative pointer"
+                            onclick="location.href='about.html'">
+                            <div class="col-9 text-right badgeText">
+                                <h4 id="leaderOfOppositionName"></h4>
+                                <h6>LEADER OF THE OPPOSITION | RAJYA SABHA</h6>
+                            </div>
+                            <div class="mainIcon col-3">
+                                <div class="picHolder">
+                                    <img src="LOP.jpg" class="iconPic" />
+                                </div>
+                            </div>
+                            <div id="borderRight1"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 ">
+                    <div class="container-fluid h-100 d-none d-md-block ">
+                        <div class="row align-items-center h-100">
+                            <div class="col-12 border-left border-secondary memberSearchBox"
+                                style="border-left: 3px solid #6c757d !important; ">
+                                <h5 onclick="location.href='about.html'" class="pointer" style="padding-top: 35px;">
+                                    SITTING MEMBERS OF RAJYA SABHA
+                                </h5>
+                                <h5 onclick="location.href='about.html'" class="mb-4 pointer">
+                                    FORMER MEMBERS OF RAJYA SABHA
+                                </h5>
+                                <div class="mainPageSearchBox text-center" style="padding-bottom: 40px; left: -35px;">
+                                    <form action='Searchmem.html' method="post" class="search-bar">
+                                        <input type="search" id="key" name="key" pattern=".*\S.*" required
+                                            autocomplete="off" placeholder="Search Members' Info">
+                                        <button class="search-btn" type="submit">
+                                            <img src="about" style=" width: 18px; " />
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        // Fetch data from the API
+        fetch('https://rsdoc.nic.in/MemberGetData/Getofficersofrs')
+            .then(response => response.json())
+            .then(data => {
+                const names = data.map(obj => obj.initialname);
+                console.log(names);
+                // Update the chairman's name
+                const chairmanName = document.getElementById('chairmanName');
+                chairmanName.textContent = names[1].toUpperCase();;
+
+                // Update the deputy chairman's name
+                const deputyChairmanName = document.getElementById('deputyChairmanName');
+                deputyChairmanName.textContent = names[3].toUpperCase();;
+
+                // Update the leader of the house's name
+                const leaderOfHouseName = document.getElementById('leaderOfHouseName');
+                leaderOfHouseName.textContent = names[2].toUpperCase();;
+
+                // Update the leader of opposition's name
+                const leaderOfOppositionName = document.getElementById('leaderOfOppositionName');
+                leaderOfOppositionName.textContent = names[4].toUpperCase();;
+            })
+            .catch(error => {
+                console.log('Error:', error);
+            });
+    </script>
+
+</body>
+
+</html>

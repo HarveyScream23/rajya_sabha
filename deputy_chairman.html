@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>API Data Parsing</title>
+  </head>
+  <body>
+    <div id="bookPublished"></div>
+    <div id="countriesVisited"></div>
+    <div id="hobbies"></div>
+    <div id="otherInformations"></div>
+    <div id="otherInterests"></div>
+
+    <script> 
+       
+        
+        fetch('https://rsdoc.nic.in/MemberGetData/getchairmanprofile')
+          .then(response => response.json())
+          .then(data => {
+            const bookPublished = data.BookPublisheds;
+            const countriesVisited = data.Countries;
+            const hobbies = data.Hobbies;
+            const otherInformations = data.OtherInformations;
+            const otherInterests = data.OtherInterests;
+
+            const bookPublishedElement = document.getElementById('bookPublished');
+            const countriesVisitedElement = document.getElementById('countriesVisited');
+            const hobbiesElement = document.getElementById('hobbies');
+            const otherInformationsElement = document.getElementById('otherInformations');
+            const otherInterestsElement = document.getElementById('otherInterests');
+             bookPublishedElement.textContent = `Book Published: ${bookPublished}`;
+             countriesVisitedElement.textContent = `Countries Visited: ${countriesVisited}`;
+             hobbiesElement.textContent = `Hobbies: ${hobbies}`;
+             otherInformationsElement.textContent = `Other Informations: ${otherInformations}`;
+             otherInterestsElement.textContent = `Other Interests: ${otherInterests}`;
+          })
+          .catch(error => {
+            console.log('Error:', error);
+          });
+        
+    </script>
+  </body>
+</html>

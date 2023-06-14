@@ -1,0 +1,84 @@
+{
+    "getChairmanData": {
+        "Id": 5,
+        "Name": "Shri Jagdeep Dhankhar",
+        "Fathername": "Late Shri Gokal Chand",
+        "MotherName": "Late Shrimati Kesari Devi",
+        "DOB": "18 May 1951",
+        "PlaceofBirth": "Village Kithana, District Jhunjhunu (Rajasthan)",
+        "MaritalStatus": "Married",
+        "MarriedOn": "1979",
+        "SpouseName": "Dr. Sudesh Dhankhar",
+        "Children": "One daughter",
+        "EducationQualification": " B.Sc. (Honors) Physics, LL.B.\r\nSchool education : Educated at Government Primary School, Village Kithana; Government Middle School, Ghardhana and Chittorgarh Sainik School. Passed the Chittorgarh Sainik School Entrance Examination for admission to Class 5 on full merit scholarship, 1962. Passed the Indian School Certificate Examination recognized by the Cambridge University.\r\nCollege education : Graduated from Maharajas’ college, Jaipur, affiliated to the University of Rajasthan; LL.B. from the University of Rajasthan, 1978-1979.\r\n Profession : Senior Advocate ",
+        "PermanentAddress": "Village & P.O. Kithana, District Jhunjhunu, Rajasthan",
+        "PresentAddress": "Vice-President’s House,\r\n6, Maulana Azad Road, New Delhi-110011\r\nTel. : 23016422, 23016344\r\n",
+        "Email": "vpindia[at]nic[dot]in",
+        "filepath": "https://cms.rajyasabha.nic.in/careers_documents/Shri_Jagdeep_Dhankar.jpg",
+        "Language": "English"
+    },
+    "getPositionHelds": [
+        {
+            "id": 1,
+            "profileId": 5,
+            "Dates": null,
+            "Content": "1989-91 : Member, Ninth Lok Sabha",
+            "Language": "English"
+        },
+        {
+            "id": 2,
+            "profileId": 5,
+            "Dates": null,
+            "Content": "Jan. - April 1990 : Chairman, Committee on Absence of Members from the Sittings of the House",
+            "Language": "English"
+        },
+        {
+            "id": 3,
+            "profileId": 5,
+            "Dates": null,
+            "Content": "Jan. - May 1990 : Member, General Purposes Committee",
+            "Language": "English"
+        },
+        {
+            "id": 4,
+            "profileId": 5,
+            "Dates": null,
+            "Content": "May 1990 : Member, Committee of Privileges",
+            "Language": "English"
+        },
+        {
+            "id": 5,
+            "profileId": 5,
+            "Dates": null,
+            "Content": "21 April - 5 Nov. 1990 : Union Deputy Minister for Parliamentary Affairs",
+            "Language": "English"
+        },
+        {
+            "id": 6,
+            "profileId": 5,
+            "Dates": null,
+            "Content": "1993-1998 : Member, Rajasthan Legislative Assembly",
+            "Language": "English"
+        },
+        {
+            "id": 7,
+            "profileId": 5,
+            "Dates": null,
+            "Content": "30 July 2019 - 18 July 2022 : Governor of West Bengal",
+            "Language": "English"
+        },
+        {
+            "id": 8,
+            "profileId": 5,
+            "Dates": null,
+            "Content": "11 August 2022 onwards : Vice-President of India and ex officio Chairman, Rajya Sabha",
+            "Language": "English"
+        }
+    ],
+    "BookPublisheds": "Has contributed articles extensively on legal issues in newspapers and periodicals",
+    "Countries": "Travelled extensively to many countries including U.S.A., Canada, U.K., Italy, Switzerland, Germany, Belgium, Australia, New Zealand, China, Hong Kong, Singapore, etc.; As Union Minister, was a Member of a delegation as Deputy Leader of a Parliamentary Group to European Parliament",
+    "Hobbies": "Reading, sports and music",
+    "OtherInformations": "Profession : was enrolled with the Bar Council of Rajasthan as an Advocate since November 1979. Designated as Senior Advocate by the High Court of Judicature for Rajasthan since March 1990; had been practicing primarily in the Supreme court and his focus area of litigation have been in the field of steel, coal, mining and international commercial arbitration, amongst others; has appeared in various high courts in the country and was the senior-most designated Senior Advocate of the state till assuming the Office of the Governor of West Bengal on 30 July 2019.\r\nThe Vice President as Chancellor / Visitor of Universities : \r\n(i) Chancellor (ex officio), Delhi University, (ii) Chancellor (ex officio), Panjab University, (iii) Chancellor, Pondicherry University and (iv) Visitor (ex officio), Makhanlal Chaturvedi Rashtriya Patrakarita Vishwavidhyalaya, Bhopal (established by an Act of the Government of Madhya Pradesh in 1990)\r\nThe Vice President as President / Chairman of the Institutes / Committees: \r\n(i) President (ex officio) of The Indian Institute of Public Administration (IIPA), Delhi, (ii) President (ex officio) of The Indian Council of World Affairs (ICWA), Delhi, (iii) Chairman of the Selection Committee of Prasar Bharti Board (As Per Prasar Bharti Broadcasting Corporation of India Act, 1990) for selection of the Members of the Board, (iv) Chairman of the Committee for selection of Chairman of The Press Council of India (As Per Section 5 (2) of The Press Council Act, 1978)\r\nThe Vice President as Chairman of Juries / Selection Committees for various Awards : \r\n(i) Pravasi Bharatiya Samman Awards (Jury Constituted by Ministry of Overseas Indian Affairs), (ii) International Gandhi Award for Leprosy (Jury Constituted by Gandhi Memorial Leprosy Foundation- Wardha Under the Ministry of Health and Family Welfare), (iii) National Communal Harmony Award (Jury Constituted by the Ministry of Home Affairs), (iv) Dr. Ambedkar International Award for Social Change (Jury Constituted by the Ministry of Social Justice and Empowerment) and (v) Jawaharlal Nehru Award for International Understanding (Jury Constituted by the Ministry of External Affairs) \r\n",
+    "OtherInterests": "Has been President, (i) Rajasthan Olympic Association and (ii) Rajasthan Tennis Association; Life Member, Indian Law Institute, New Delhi; Member, (i) Indian Council of Arbitration, (ii) ICC Commission of Arbitration and (iii) ICC Court of Arbitration; Elected Member of the Rajasthan Bar Council, 1988; cooperative movement, agriculture and fine arts; an avid reader of books; a sports aficionado "
+    
+}

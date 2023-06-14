@@ -1,0 +1,52 @@
+[
+    {
+        "MP_CODE": 14,
+        "name": "P. C. Mody, Shri",
+        "initialname": "Shri P. C. Mody",
+        "hindiname": "पी. सी. मोदी, श्री",
+        "TERM_FROM": "2021-11-12T00:00:00",
+        "TERM_TO": null,
+        "CURRENT_FLAG": true,
+        "type": "SG"
+    },
+    {
+        "MP_CODE": 16,
+        "name": "Jagdeep Dhankhar, Shri",
+        "initialname": "Shri Jagdeep Dhankhar",
+        "hindiname": "जगदीप धनखड़, श्री",
+        "TERM_FROM": "2022-08-11T00:00:00",
+        "TERM_TO": null,
+        "CURRENT_FLAG": true,
+        "type": "CH"
+    },
+    {
+        "MP_CODE": 2173,
+        "name": "Piyush Goyal, Shri",
+        "initialname": "Shri Piyush Goyal",
+        "hindiname": "पीयूष गोयल, श्री",
+        "TERM_FROM": "2022-07-15T00:00:00",
+        "TERM_TO": null,
+        "CURRENT_FLAG": true,
+        "type": "LOH"
+    },
+    {
+        "MP_CODE": 2269,
+        "name": " Harivansh, Shri",
+        "initialname": "Shri Harivansh",
+        "hindiname": " हरिवंश, श्री",
+        "TERM_FROM": "2020-09-14T00:00:00",
+        "TERM_TO": null,
+        "CURRENT_FLAG": true,
+        "type": "DC"
+    },
+    {
+        "MP_CODE": 2482,
+        "name": "Mallikarjun Kharge, Shri",
+        "initialname": "Shri Mallikarjun Kharge",
+        "hindiname": "मल्लिकार्जुन खरगे, श्री",
+        "TERM_FROM": "2021-02-16T00:00:00",
+        "TERM_TO": null,
+        "CURRENT_FLAG": true,
+        "type": "LOP"
+    }
+]

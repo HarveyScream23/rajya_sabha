@@ -1,0 +1,131 @@
+
+.profileImage {
+    height: 79vh;
+    width: auto !important;
+    width: 100% !important;
+    max-width: 678px;
+    float: left;
+    clear: both;
+    /*border-top-right-radius: 116px;*/
+}
+.heading h1{
+    font-size:3.5rem;
+    color: crimson;
+    font-weight: 2500px;
+}
+.profileImgForOtherFormalListPage
+{
+    width: 121px !important;
+    float: left;
+    margin-top: 17px;
+    clear: both;
+    border: 1px solid white;
+    background: white;
+    box-shadow: 0px 0px 25px 0px blanchedalmond;
+    margin-bottom: 8px;
+}
+.formerChairmenList {
+    padding-left: 10px;
+    padding-right: 3px;
+    border-left: 2px solid #C44747;
+}
+
+@font-face {
+    font-family: 'cooper-hewitt-bold';
+    src: url('../Fonts/cooper-hewitt.bold.otf') format('opentype');
+}
+.singleMemberTable {
+    font-family: initial;
+}
+
+
+.initialfont {
+    font-family: initial;
+}
+
+
+.profileImage2 {
+    width: 286px !important;
+    float: left;
+    clear: both;
+    border: 1px solid gainsboro;
+    background: white;
+    box-shadow: 0px 0px 25px 0px blanchedalmond;
+    margin-bottom: 8px;
+}
+
+
+
+.profilePicBox {
+    width: 286px !important;
+}
+
+.profileSection th {
+    width: 219px;
+    PADDING-RIGHT: 33PX;
+}
+#profileSection th {
+    width: 219px;
+    PADDING-RIGHT: 33PX;
+}
+
+
+
+#positionHeld table{
+    border:0 !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+.pdSpan {
+    padding: 0.75rem !important;
+    display: block;
+}
+
+@media(min-width:100px) and (max-width:900px) {
+    .profilePicBox {
+        margin: auto !important;
+    }
+
+    .heading h1 {
+        line-height: 42px !important;
+    }
+}
+
+@media(min-width:100px) and (max-width:768px) {
+    #show {
+        display: block !important;
+    }
+}
+
+@media(min-width:385) and (max-width:500px) {
+    .profilePicBox {
+        margin: auto !important;
+    }
+
+    .heading h1 {
+        font-size: 2.5rem !important;
+    }
+
+    .heading p {
+        font-size: 18px !important;
+    }
+}
+
+@media(min-width:100px) and (max-width:385px) {
+    .profilePicBox {
+        margin: auto !important;
+    }
+
+    .heading h1 {
+        font-size: 2rem !important;
+    }
+
+    .heading p {
+        font-size: 16px !important;
+    }
+}
